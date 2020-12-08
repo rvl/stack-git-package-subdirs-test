@@ -1,0 +1,9 @@
+resolver: lts-16.25
+packages: 
+ - .
+extra-deps:
+ - git: https://github.com/snoyberg/conduit.git
+   commit: 0bf72ae4c5a765517ef69df650456c11b1e8fbf1
+   subdirs:
+   - conduit
+   - resourcet
